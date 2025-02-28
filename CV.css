@@ -1,0 +1,105 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #333;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+}
+
+.wrapper {
+    width: 800px;
+}
+
+.container{
+    width: 100%;
+    background-color: #585656;
+    color: white;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    height: 150px;
+}
+
+.container img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    padding-left: 50px;
+    bottom: -30px;
+    position: absolute;
+}
+
+.name {
+    padding-top: 60px;
+    text-align: center;
+}
+
+
+.header h1{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.header h2{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.content {
+    padding: 80px 40px 10px;
+    background-color: white;
+}
+
+.section {
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.section-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.summary{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+}
+
+.column {
+    width: 48%;
+}
+
+.experience{
+    margin-top: 50px;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+}
+
+h3{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+h4{
+    font-weight: normal;
+    font-size: 13px;
+}
+
+li{
+    font-size: 13px;
+}
+
+.others {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
